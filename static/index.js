@@ -34,7 +34,7 @@ $(function () {
                 $('#prediction').css("display", "");
                 $('#emo_img_url').css("display", "");
 
-               //Activar el botón de guardar
+               //Activar el botón de guardar.
                 $('#save_button').prop('disabled', false);
             },
             error: function (result) {
@@ -94,16 +94,27 @@ function askBot() {
             }
             //Escribe la llamada a AJAX aquí.
             $.ajax({
-
-
+                type: 
+                url: 
+                data: 
+                dataType: 
+                contentType: 
+                    success: function (result) {
+                        
+                        
+                    },
+                    error: function (result) {
+                        
+                    }
             });
 
         }
 
     })
-   
-      //Send message if Enter key(key code is 13) pressed message 
-        
+    $('#').keypress(function(e){
+        //Si se presiona la tecla intro(código de tecla 13).
+        if(){         
+            $('#').click(); //Activar el evento de clic del botón enviar.
         }
     });
 }
